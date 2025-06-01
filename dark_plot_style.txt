@@ -1,7 +1,8 @@
 
 # --- Background and General Colors ---
 axes.facecolor: (0, 0, 0, 0)
-figure.facecolor: (0, 0, 0, 0)
+figure.facecolor: "#0F0F0F"  # deep black
+
 legend.facecolor: (0, 0, 0, 0)
 legend.frameon: False
 image.cmap: viridis
@@ -11,7 +12,11 @@ xtick.color: "#D0D0D0"
 ytick.color: "#D0D0D0"
 text.color: "#E0E0E0"
 lines.markeredgecolor: "#E0E0E0"
+lines.markerfacecolor: auto
+
 scatter.edgecolors: "#E0E0E0"
+scatter.facecolors: "#e74c3c"
+
 grid.color: "#666666"
 axes.labelcolor: "#CCCCCC"
 axes.edgecolor: "#CCCCCC"
@@ -43,6 +48,8 @@ legend.title_fontsize: 16
 legend.fontsize: 12
 legend.framealpha: 0.8
 legend.edgecolor: "#999999"
+legend.fontsize: 12
+legend.labelcolor: "#E0E0E0"
 legend.borderpad: 0.2
 legend.columnspacing: 1.5
 legend.labelspacing: 0.4
