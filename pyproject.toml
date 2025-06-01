@@ -4,4 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "highlight-text>=0.2",
+    "ipywidgets>=8.1.7",
+    "jupyterlab>=4.4.3",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pyarrow>=20.0.0",
+    "pycountry-convert>=0.7.2",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+    "statsmodels>=0.14.4",
+]
