@@ -38,6 +38,8 @@ axes.titlelocation: left
 axes.autolimit_mode: round_numbers
 axes.formatter.use_mathtext: True
 axes.formatter.limits: -4, 4
+axes.labelcolor: "#CCCCCC"
+axes.edgecolor: "#CCCCCC"
 
 # --- Tick Label Sizes ---
 xtick.labelsize: 16
@@ -45,7 +47,6 @@ ytick.labelsize: 16
 
 # --- Legend Styling ---
 legend.title_fontsize: 16
-legend.fontsize: 12
 legend.framealpha: 0.8
 legend.edgecolor: "#999999"
 legend.fontsize: 12
@@ -55,6 +56,7 @@ legend.columnspacing: 1.5
 legend.labelspacing: 0.4
 
 # --- Lines and Markers ---
+lines.markeredgecolor: "#E0E0E0"
 lines.linewidth: 3
 lines.markersize: 9
 
