@@ -1,0 +1,70 @@
+[style]
+
+# --- Background and General Colors ---
+axes.facecolor: (0, 0, 0, 0)
+figure.facecolor: (0, 0, 0, 0)
+legend.facecolor: (0, 0, 0, 0)
+legend.frameon: False
+image.cmap: viridis
+
+# --- Dark-Optimized Text and Grid Colors ---
+xtick.color: "#D0D0D0"
+ytick.color: "#D0D0D0"
+text.color: "#E0E0E0"
+lines.markeredgecolor: "#E0E0E0"
+scatter.edgecolors: "#E0E0E0"
+grid.color: "#666666"
+axes.labelcolor: "#CCCCCC"
+axes.edgecolor: "#CCCCCC"
+
+# --- Font and Math Settings ---
+font.size: 12
+font.family: STIXGeneral
+mathtext.fontset: stix
+
+# --- Axis and Label Styling ---
+axes.labelsize: 16
+axes.titlesize: 19
+axes.labelpad: 3
+axes.linewidth: 0.6
+axes.spines.right: False
+axes.spines.top: False
+axes.grid: False
+axes.titlelocation: left
+axes.autolimit_mode: round_numbers
+axes.formatter.use_mathtext: True
+axes.formatter.limits: -4, 4
+
+# --- Tick Label Sizes ---
+xtick.labelsize: 16
+ytick.labelsize: 16
+
+# --- Legend Styling ---
+legend.title_fontsize: 16
+legend.fontsize: 12
+legend.framealpha: 0.8
+legend.edgecolor: "#999999"
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing: 0.4
+
+# --- Lines and Markers ---
+lines.linewidth: 3
+lines.markersize: 9
+
+# --- Patch Styling ---
+patch.facecolor: "#bc80bd"
+patch.force_edgecolor: True
+patch.linewidth: 0.8
+
+# --- Color and Line Style Cycle ---
+axes.prop_cycle: cycler("color", ["#e74c3c", "#b86dd6", "#fca821", "#3498db", "#f1c40f", "#ffa847", "#c4ef7a", "#e195e2", "#ced9ed", "#fff29b"]) + cycler("linestyle", ["-", "--", ":", "-.", "-", "--", ":", "-.", "-", "--"])
+
+# --- Figure Settings ---
+figure.figsize: (8, 4)
+figure.titlesize: 21
+figure.dpi: 150
+savefig.dpi: 150
+
+# --- TeX Rendering ---
+text.usetex: False
