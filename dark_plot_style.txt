@@ -60,8 +60,8 @@ patch.linewidth: 0.8
 axes.prop_cycle: cycler("color", ["#e74c3c", "#b86dd6", "#fca821", "#3498db", "#f1c40f", "#ffa847", "#c4ef7a", "#e195e2", "#ced9ed", "#fff29b"]) + cycler("linestyle", ["-", "--", ":", "-.", "-", "--", ":", "-.", "-", "--"])
 
 # --- Figure Settings ---
-axes.xmargin: 0
-axes.ymargin: 0
+axes.xmargin: 0.02
+axes.ymargin: 0.05
 figure.figsize: 8, 4
 figure.titlesize: 21
 figure.dpi: 150
